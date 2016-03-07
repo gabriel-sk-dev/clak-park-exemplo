@@ -1,2 +1,2 @@
-# clak-park-exemplo
-Projeto para simular sistema de gerenciamento de estacionamentos usando HTML, CSS e ASP.NET com MVC 4. Exemplos válidos para disciplinas de INTERNET e PROGRAMAÇÃO II do curso técnico em informatica do CLAK.
+# INTERNET - AULA - 02
+Projeto de exemplo para utilizar como projeto inicial dos exercicios em aula.
