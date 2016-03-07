@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema para Estacionamentos - ClakPark</title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">ClakPark - Sistema para estacionamentos</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Principal </a></li>
+                    <li><a href="entradas.html">Entradas</a></li>
+                    <li><a href="pagamentos.html">Pagamentos</a></li> 
+                </ul>                
+            </div>
+        </div>
+    </nav>    
+
+    <form>
+        <div class="form-group">
+            <label for="email">Username</label>
+            <input type="email" class="form-control" name="email"
+                   placeholder="E-Mail" />
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" class="form-control" name="senha"
+                   placeholder="Senha" />
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" name="lembrar" value="" />Lembrar de mim
+            </label>
+        </div>
+
+        <div class="form-group">
+            <a href="#">Esqueçi minha senha</a>
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-default"
+                    onclick="IrPara('principal.html')" >Entrar</button>
+        </div>        
+    </form>   
+</body>
+
+</html>
